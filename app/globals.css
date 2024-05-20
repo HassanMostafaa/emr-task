@@ -1,4 +1,10 @@
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --primary-blue: #3b448a;
+  --primary-blue: #2779bd;
+  /* --primary-blue-hovered: #2779bd; */ /* same opacity 0.4 */
+  --tertiary-blue: #191f4f;
+}
