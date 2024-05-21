@@ -8,6 +8,7 @@ export const SMainNav = styled.div`
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  background-color: white;
 `;
 
 export const SRightSideNav = styled.div`

@@ -13,6 +13,7 @@ export const SSideNav = styled.div`
   gap: 34px;
   flex-direction: column;
   padding: 5px;
+  position: fixed;
 `;
 
 export const SIconsContainer = styled.div`
