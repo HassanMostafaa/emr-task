@@ -4,7 +4,10 @@
 
 :root {
   --primary-blue: #3b448a;
-  --primary-blue: #2779bd;
-  /* --primary-blue-hovered: #2779bd; */ /* same opacity 0.4 */
+  --secondary-blue: #2779bd;
   --tertiary-blue: #191f4f;
+  --primary-red: #d32645;
+  --secondary-red: #ff725e;
+  --primary-green: #047701;
+  --secondary-green: #87cc85;
 }

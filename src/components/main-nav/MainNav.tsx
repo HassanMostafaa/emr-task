@@ -10,16 +10,13 @@ import ProfileImg from "../../icons/profile-imt-1.png";
 export const MainNav = () => {
   return (
     <SMainNav>
-      <div className="flex justify-between items-center">
-        <LogoInitials />
-
-        <SRightSideNav>
-          <SearchInput />
-          <LogoSmall />
-          <Notification />
-          <MainNavProfile name={"Eleanor Pen"} avatar={ProfileImg.src} />
-        </SRightSideNav>
-      </div>
+      <LogoInitials />
+      <SRightSideNav>
+        <SearchInput />
+        <LogoSmall />
+        <Notification />
+        <MainNavProfile name={"Eleanor Pen"} avatar={ProfileImg.src} />
+      </SRightSideNav>
     </SMainNav>
   );
 };
